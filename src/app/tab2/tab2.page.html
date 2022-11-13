@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Problema 7
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+  <h1>Area de un Triangulo equilatero</h1>
+  <p>Indique la  medida de la base del Triangulo equilatero para encontrar su area.</p>
+
+
+    <ion-item>
+      <ion-label>Ingresar medida de la base</ion-label>
+      <ion-input type="number" placeholder="000" [(ngModel)]="numero1"></ion-input>
+    </ion-item>
+    <p>Indique la  medida de la altura del Triangulo equilatero para encontrar su area.</p>
+    <ion-item>
+      <ion-label>Ingresar medida de la altura</ion-label>
+      <ion-input type="number" placeholder="000" [(ngModel)]="numero2"></ion-input>
+    </ion-item>
+
+    <ion-button shape="round" (click)=" areaTriangulo()">Calcular</ion-button>
+
+    <h2>Respuesta</h2>
+
+
+    <p id="respuesta"></p>
+
+   
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      Problema 7
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

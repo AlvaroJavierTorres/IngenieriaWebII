@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Problema 5
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Conversion metrica</h1>
+  <p>Indique el valor en metros (m) que desea convertir:</p>
+
+
+    <ion-item>
+      <ion-label>Ingresar Valor</ion-label>
+      <ion-input type="number" placeholder="000" [(ngModel)]="numero1"></ion-input>
+    </ion-item>
+    <ion-button shape="round" (click)="conversion()">Validar</ion-button>
+
+    <h2>Respuesta</h2>
+
+
+    <p id="respuesta"></p>
+    <p id="respuesta2"></p>
+    <p id="respuesta3"></p>
+    <p id="respuesta4"></p>
+    <p id="respuesta5"></p>
+
+   
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      Problema 5
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
